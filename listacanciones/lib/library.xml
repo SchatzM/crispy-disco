@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Llenguatge de Marques -->
+<!-- Tasca 2.2 Creació d'un fitxer XML pel projecte VLC -->
+<!-- Garbiñe Boned Ruiz -->
+<library
+    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation = "library.xsd">
+    <!-- Dentro de library se añaden las diferentes canciones -->
+    <track id="1">
+    <!-- Dentro de la canción, se especifican las diferentes características de la canción -->
+        <name>In the end</name>
+        <miliseconds>134000</miliseconds>
+        <bytes>4675</bytes>
+        <path>cancion1.mp3</path>
+        <media_type id="34">mp3</media_type>
+        <genre id="3">Rap Rock</genre>
+        <album id="2">
+        <!-- Dentro del album, se añaden las características del mismo, identándolas -->
+            <number_track>3</number_track>
+            <name>Hybrid Theory</name>
+            <artists>
+                <artist>Linkin Park</artist>
+            </artists>
+        </album> 
+        <composers>
+            <composer>Linkin Park</composer>
+        </composers>
+    </track>
+    <track id="2">
+        <name>Fil de llum</name>
+        <miliseconds>134000</miliseconds>
+        <bytes>4675</bytes>
+        <path>cancion2.mp3</path>
+        <media_type id="34">mp3</media_type>
+        <genre id="3">Pop</genre>
+        <album id="2">
+            <number_track>3</number_track>
+            <name>Ping Pong</name>
+            <artists>
+                <artist>Andreu Rifé</artist>
+            </artists>
+        </album> 
+        <composers>
+            <composer>Andreu Rifé</composer>
+        </composers>
+    </track>
+    <track id="3">
+        <name>Save me</name>
+        <miliseconds>145000</miliseconds>
+        <bytes>4720</bytes>
+        <path>cancion3.mp3</path>
+        <media_type id="34">mp3</media_type>
+        <genre id="3">Pop</genre>
+        <album id="2">
+            <number_track>3</number_track>
+            <name>The Golden Hum</name>
+            <artists>
+                <artist>Remy Zero</artist>
+            </artists>
+        </album> 
+        <composers>
+            <composer>Remy Zero</composer>
+        </composers>
+    </track>
+    <track id="4">
+        <name>Zapatillas</name>
+        <miliseconds>123000</miliseconds>
+        <bytes>4542</bytes>
+        <path>cancion4.mp3</path>
+        <media_type id="34">mp3</media_type>
+        <genre id="3">Pop</genre>
+        <album id="2">
+            <number_track>1</number_track>
+            <name>Zapatillas</name>
+            <artists>
+                <artist>El Canto del Loco</artist>
+            </artists>
+        </album> 
+        <composers>
+            <composer>El Canto del Loco</composer>
+        </composers>
+    </track>
+     <track id="5">
+        <name>Dulce Locura</name>
+        <miliseconds>123000</miliseconds>
+        <bytes>4542</bytes>
+        <path>cancion5.mp3</path>
+        <media_type id="34">mp3</media_type>
+        <genre id="3">Pop</genre>
+        <album id="2">
+            <number_track>1</number_track>
+            <name>Guapa</name>
+            <artists>
+                <artist>La Oreja de Van Gogh</artist>
+            </artists>
+        </album> 
+        <composers>
+            <composer>La Oreja de Van Gogh</composer>
+        </composers>
+    </track>
+     <track id="5">
+        <name>It's My Life</name>
+        <miliseconds>123000</miliseconds>
+        <bytes>4542</bytes>
+        <path>cancion6.mp3</path>
+        <media_type id="34">mp3</media_type>
+        <genre id="3">Pop</genre>
+        <album id="2">
+            <number_track>1</number_track>
+            <name>It's My Life</name>
+            <artists>
+                <artist>Bon Jovi</artist>
+            </artists>
+        </album> 
+        <composers>
+            <composer>Bon Jovi</composer>
+        </composers>
+    </track>
+    <playlists>
+        <playlist>
+            <name>Canciones para hacer deporte</name>
+            <number_track></number_track>
+            <tracks>
+                <track id="3"/>
+                <track id="1"/>
+            </tracks>
+        </playlist>
+    </playlists>
+</library>
